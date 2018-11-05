@@ -1,0 +1,30 @@
+{
+  "name": "obi",
+  "version": "1.0.0",
+  "description": "EEG Data Training",
+  "main": "index.js",
+  "dependencies": {
+    "neataptic": "^1.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lelatbones/OBI.git"
+  },
+  "keywords": [
+    "neataptic",
+    "rnn",
+    "lstm",
+    "eeg",
+    "opensource"
+  ],
+  "author": "Lela Bones and Adam Jump",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lelatbones/OBI/issues"
+  },
+  "homepage": "https://github.com/lelatbones/OBI#readme"
+}

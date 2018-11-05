@@ -2,6 +2,7 @@ import json
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import torch
 
 #best file= mac_dude_BlinkTest_1.json
 #second best = a88ac021f60d23d32aec7764199fcfcf64c3784548eedc852c90f6a4baa24f48.json
@@ -25,3 +26,5 @@ inputs = np.array(inputs)
 #normalizes the data
 inputs = np.subtract(inputs, inputs.min())
 inputs = np.divide(inputs, inputs.max())
+
+print(inputs[1,1])
